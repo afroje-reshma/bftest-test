@@ -14,7 +14,7 @@ try {
 
   stage ("Health Check") {
               sh "pwd"
-             sh "./ci/bftest.sh"
+             sh "./ci/Daily/bftest.sh"
      }
     } 
         
