@@ -1,11 +1,11 @@
 
 
-@Library('pipelib@master') _
+//@Library('pipelib@master') _
 
-node ("sl62") {
+node {
   stage("Setup") {
     git([
-      url: "https://github.com/venicegeo/bftest-integration",
+      url: "https://github.com/afroje-reshma/bftest-test",
       branch: "master"
     ])
   }
