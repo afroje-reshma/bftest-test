@@ -14,6 +14,7 @@ try {
 
   stage ("Health Check") {
               sh "pwd"
+              sh "/ci/daily/daily_bf_depend.sh"
      }
     } 
         
