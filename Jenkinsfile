@@ -15,7 +15,7 @@ try {
   stage ("Health Check") {
               sh "pwd"
               sh "ls -la ci/Daily"
-              sh "./ci/Daily/Daily_BF_Depend.sh"
+              sh "./ci/Daily/daily.sh"
      }
     } 
         
