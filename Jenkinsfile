@@ -17,7 +17,7 @@ try {
               sh "chmod u+x ci/Daily/daily.sh"
               sh "ls -la ci/Daily"
               sh "npm install newman"
-              sh "./ci/Daily/daily.sh"
+            //  sh "./ci/Daily/daily.sh"
      }
     } 
         
