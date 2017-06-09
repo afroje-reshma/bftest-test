@@ -15,7 +15,7 @@ try {
   stage ("Health Check") {
               sh "pwd"
               sh "ls -la ci/Daily"
-              sh "chmod u+x ./ci/Daily/daily.sh"
+              sh "chmod u+x ci/Daily/daily.sh"
               sh "./ci/Daily/daily.sh"
      }
     } 
