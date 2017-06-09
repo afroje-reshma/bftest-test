@@ -16,6 +16,7 @@ try {
               sh "pwd"
               sh "chmod u+x ci/Daily/daily.sh"
               sh "ls -la ci/Daily"
+              sh "npm install newman@2"
               sh "./ci/Daily/daily.sh"
      }
     } 
