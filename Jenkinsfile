@@ -16,7 +16,6 @@ try {
               sh "pwd"
               sh "chmod u+x ci/Daily/daily.sh"
               sh "ls -la ci/Daily"
-              sh "sudo yum install nodejs"
               sh "npm install newman"
               sh "./ci/Daily/daily.sh"
      }
