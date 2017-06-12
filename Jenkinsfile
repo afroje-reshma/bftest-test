@@ -26,7 +26,7 @@ try {
               sh "npm install newman"
               sh "npm -v"
             //  sh "./ci/Daily/daily.sh"
-      }
+     // }
      }
     } 
         
