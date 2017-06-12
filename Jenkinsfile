@@ -14,9 +14,10 @@ try {
 
   stage ("Health Check") {
               sh "pwd"
-              sh "chmod u+x ci/Daily/daily.sh"
-              sh "ls -la ci/Daily"
+              //sh "chmod u+x ci/Daily/daily.sh"
+              //sh "ls -la ci/Daily"
               sh "npm install newman"
+              sh "npm -v"
             //  sh "./ci/Daily/daily.sh"
      }
     } 
