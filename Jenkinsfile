@@ -14,9 +14,9 @@ try {
 
   stage ("Health Check") {
               sh "pwd"
-     def nodejs = tool 'NodeJS_6'
+     //def nodejs = tool 'NodeJS_6'
     def root = pwd()
-    withEnv(["PATH+=${nodejs}/bin", "NPM_CONFIG_CACHE=${root}/.npmcache", "HOME=${WORKSPACE}"]) {
+    //withEnv(["PATH+=${nodejs}/bin", "NPM_CONFIG_CACHE=${root}/.npmcache", "HOME=${WORKSPACE}"]) {
         sh "mkdir -p ${root}/.npmcache"
         sh "npm install newman"
         sh "ls -al"
