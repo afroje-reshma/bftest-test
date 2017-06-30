@@ -12,7 +12,7 @@ node {
 
 try {
 
-  stage ("Health Check") {
+  stage ("HealthCheck") {
               sh "pwd"
      //def nodejs = tool 'NodeJS_6'
     def root = pwd()
@@ -25,6 +25,7 @@ try {
               //sh "ls -la ci/Daily"
               sh "npm install newman"
               sh "npm -v"
+              sh "newman -v"
             //  sh "./ci/Daily/daily.sh"
      // }
      }
