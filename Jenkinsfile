@@ -25,7 +25,8 @@ try {
               //sh "ls -la ci/Daily"
               sh "npm install newman"
               sh "npm -v"
-              sh "newman -v"
+              sh "echo 'hello'"
+             // sh "newman -v"
             //  sh "./ci/Daily/daily.sh"
      // }
      }
