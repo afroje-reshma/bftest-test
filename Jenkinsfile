@@ -12,7 +12,7 @@ node {
 
 try {
 
-  stage ("HealthCheck") {
+  stage ("Health-Check1") {
               sh "pwd"
      //def nodejs = tool 'NodeJS_6'
     def root = pwd()
