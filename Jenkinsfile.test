@@ -28,7 +28,7 @@ node {
              // sh "newman -v"
             //  sh "./ci/Daily/daily.sh"
      // }
-     }
+    // }
     }*/
 
         //catch (err) {
@@ -42,5 +42,5 @@ node {
   stage ("Cleanup") {
     deleteDir()
   }
- 
+} 
 
